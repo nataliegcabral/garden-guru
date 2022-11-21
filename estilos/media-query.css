@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*
+--cor0: #29221d; marrom
+--cor1: #5B9279; verde escuro
+--cor2: #8FCB9B; verde clro
+--cor3: #EAE6E5; branco
+--cor4: #7e8f73; verde fundo
+*/
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #login {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    h1, p {
+        padding: 10px 0px;
+    }
+
+    #user, #password {
+        padding: 0px;
+    }
+
+    #imagem {
+        background-position: right center;
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    form {
+        width: 70%;
+        float: right;
+        margin: auto;
+    }
+
+    form > p > input {
+        width: 85%;
+    }
+
+    label {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    #botao {
+        width: 90%;
+        margin: 5px;
+    }
+}
+
+
+/* GRANDES TELAS */
+
+@media screen and (min-width: 992px) {
+    #login {
+        width: 950px;
+        height: 40vh;
+    }
+
+    #imagem {
+        float: right;
+        height: 100%;
+        width: 40%;
+        border-radius: 0px;
+    }
+
+    form {
+        width: 60%;
+        float: left;
+        margin: auto;
+    }
+
+    form > p > input {
+        width: 88%;
+    }
+
+    #botao {
+        width: 90%;
+    }
+}

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+:root {
+    /* PALETA DE CORES */
+    --cor0: #29221d;
+    --cor1: #5B9279;
+    --cor2: #8FCB9B;
+    --cor3: #EAE6E5;
+    --cor4: #7e8f73;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--cor4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: var(--cor0);
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#login {
+    transition: all .3s;
+    background-color: var(--cor2);
+    width: 300px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px #15171269;
+    transition: width 0.4s, height 0.4s;
+}
+
+#imagem {
+    display: block;
+    background-image: url(../imagens/tree.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#form {
+    text-align: center;
+    padding: 10px;
+}
+
+h1, p {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 3px #29221d50;
+}
+
+#form > p {
+    padding: 5px;
+}
+
+form > p > input {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin: 10px 10px 10px 0px;
+    display: inline;
+}
+
+#botao {
+    padding: 10px;
+    width: 240px;
+    cursor: pointer;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#botao:hover {
+    background-color: #619c82;
+    transition: .3s all;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #e2dddb;
+    transition: .3s all;
+}
+
+#user, #password {
+    background-color: var(--cor1);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+label {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    padding: 8px;
+    margin: 0px 5px;
+}
+
+.material-icons {
+    color: var(--cor3);
+    text-align: center;
+    font-size: 1.8em;
+    
+}
+
+
+
