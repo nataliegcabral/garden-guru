@@ -66,18 +66,22 @@
     #imagem {
         float: right;
         height: 100%;
-        width: 40%;
+        width: 50%;
         border-radius: 0px;
     }
 
     form {
-        width: 60%;
+        width: 50%;
         float: left;
         margin: auto;
     }
 
     form > p > input {
-        width: 88%;
+        width: 85%;
+    }
+
+    label {
+        padding-right: 25px;
     }
 
     #botao {
