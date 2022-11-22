@@ -10,15 +10,15 @@
 
 /* TABLET */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     #login {
         width: 90vw;
-        height: 50vh;
+        height: 70vh;
     }
 
     h1, p {
         padding: 10px 0px;
-        margin: 10px 5px;
+        margin: 30px 15px;
     }
 
     #user, #password {
@@ -50,28 +50,33 @@
 
     #botao {
         width: 90%;
-        margin: 10px;
+        margin: 0px;
     }
 }
 
 
 /* GRANDES TELAS */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     #login {
         width: 950px;
-        height: 40vh;
+        height: 60vh;
+    }
+
+    h1, p {
+        margin: 15px;
+        padding: 10px;
     }
 
     #imagem {
         float: right;
         height: 100%;
-        width: 50%;
+        width: 45%;
         border-radius: 0px;
     }
 
     form {
-        width: 50%;
+        width: 53%;
         float: left;
         margin: auto;
     }
@@ -80,11 +85,16 @@
         width: 85%;
     }
 
+    #user, #password {
+        padding: 0;
+    }
+
     label {
         padding-right: 25px;
     }
 
     #botao {
         width: 90%;
+        margin: 0;
     }
 }
