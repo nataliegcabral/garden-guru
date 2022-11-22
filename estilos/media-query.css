@@ -13,12 +13,13 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     #login {
         width: 90vw;
-        height: 70vh;
+        height: 550px;
     }
 
     h1, p {
         padding: 10px 0px;
         margin: 30px 15px;
+        font-size: 1.1em;
     }
 
     #user, #password {
@@ -60,12 +61,13 @@
 @media screen and (min-width: 1024px) {
     #login {
         width: 950px;
-        height: 60vh;
+        height: 500px;
     }
 
     h1, p {
         margin: 15px;
         padding: 10px;
+        font-size: 1.2em;
     }
 
     #imagem {
