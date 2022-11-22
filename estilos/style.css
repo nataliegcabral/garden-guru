@@ -34,7 +34,7 @@ main {
     transition: all .3s;
     background-color: var(--cor2);
     width: 300px;
-    height: 600px;
+    height: 700px;
     display: block;
     margin: auto;
     position: absolute;
