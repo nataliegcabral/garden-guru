@@ -33,7 +33,7 @@ main {
     transition: all .3s;
     background-color: var(--cor2);
     width: 300px;
-    height: 600px;
+    height: 70vh;
     display: block;
     margin: auto;
     position: absolute;
@@ -64,6 +64,7 @@ main {
 h1, p {
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 1px 1px 3px #29221d50;
+    
 }
 
 #form > p {
@@ -117,8 +118,8 @@ label {
     text-align: center;
     vertical-align: middle;
     display: inline-block;
-    width: 30px;
-    padding: 8px;
+    width: 25px;
+    padding: 6px;
     margin: 0px 5px;
 }
 

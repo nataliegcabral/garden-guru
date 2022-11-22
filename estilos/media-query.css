@@ -13,11 +13,12 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #login {
         width: 90vw;
-        height: 40vh;
+        height: 50vh;
     }
 
     h1, p {
         padding: 10px 0px;
+        margin: 10px 5px;
     }
 
     #user, #password {
@@ -44,12 +45,12 @@
 
     label {
         margin: 0px;
-        padding: 2px;
+        width: 40px;
     }
 
     #botao {
         width: 90%;
-        margin: 5px;
+        margin: 10px;
     }
 }
 
