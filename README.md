@@ -2,8 +2,6 @@
 
  Projeto de tela de login feito no módulo 04 do curso de HTML e CSS da plataforma _CursoemVideo_.
  
- Todos os créditos da criação voltados para o professor **Gustavo Guanabara**, criador do template utilizado no site e professor da plataforma.
- 
  Este projeto foi criado para praticar os ensinamentos sobre formulários e Media Queries vistos no curso. Foi feita uma tela de login e senha, com botões de enviar e de "esqueci a senha" (apenas simbólicos, sem funcionalidade) em HTML e CSS, a partir de um formulário. Além da responsividade do site, utilizando media queries e o conceito _Mobile First_.
  
  ##
