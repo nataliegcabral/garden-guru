@@ -1,136 +1,111 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
     /* PALETA DE CORES */
-    --cor0: #29221d;
-    --cor1: #5B9279;
-    --cor2: #8FCB9B;
-    --cor3: #EAE6E5;
-    --cor4: #7e8f73;
+    --cor0: #4f2b52;
+    --cor1: #321135;
+    --cor2: #D0CFEC;
+    --cor3: #F2F2F8;
+    --cor4: #946690;
+    --cor6: #619c82;
+
+    --fonte-padrao: 'Quicksand', sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte-padrao);
     
 }
 
 body {
     background-color: var(--cor4);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    color: var(--cor0);
+    color: var(--cor3);
 }
 
-main {
-    height: 100vh;
-    width: 100vw;
-}
-
-#login {
+.login {
     transition: all .3s;
-    background-color: var(--cor2);
-    width: 300px;
-    height: 650px;
-    display: block;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 2px 2px 8px #15171269;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     transition: width 0.4s, height 0.4s;
-}
-
-#imagem {
-    display: block;
-    background-image: url(../imagens/tree.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-#form {
     text-align: center;
-    padding: 10px;
 }
 
-h1, p {
-    font-family: 'Courier New', Courier, monospace;
-    text-shadow: 1px 1px 3px #29221d50;
-    margin: 10px;
+.imagem {
+    display: block;
+    border-radius: 50%;
+    width: 40%;
+    margin: auto;
+    padding: 30px 0px;
+    /* background: var(--cor0) center center no-repeat fixed;
+    background-size: auto; */
+}
+
+h1 {
+    font-size: 3.5em;
     
 }
 
-#form > p {
-    padding: 5px;
+h2 {
+    font-size: 1.5em;
+    margin: 50px 0px;
 }
 
-form > p > input {
-    background-color: var(--cor3);
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-    margin: 10px 10px 10px 0px;
-    display: inline;
-}
 
-#botao {
-    padding: 10px;
-    width: 240px;
-    cursor: pointer;
-    background-color: var(--cor1);
-    color: var(--cor3);
-    margin: 10px;
-    border-radius: 10px;
-}
-
-#botao:hover {
-    background-color: #619c82;
-    transition: .3s all;
-}
-
-a {
-    text-decoration: none;
-    padding: 10px;
-    background-color: var(--cor3);
+.user, .password {
     color: var(--cor1);
-    border-radius: 10px;
-}
-
-a:hover {
-    background-color: #e2dddb;
-    transition: .3s all;
-}
-
-#user, #password {
-    background-color: var(--cor1);
-    margin: 10px;
-    border-radius: 10px;
-}
-
-label {
-    text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-    width: 25px;
-    padding: 6px;
-    margin: 0px 5px;
+    text-align: left;
+    margin: 30px 40px;    
+    background-color: var(--cor3);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border-radius: 4px;
 }
 
 .material-icons {
+    color: var(--cor0);
+    font-size: 2em;
+    padding: 10px;
+}
+
+form > div > input, form > input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+}
+
+.botao {
+    padding: 10px;
+    width: 85%;
+    cursor: pointer;
+    background-color: var(--cor0);
+    color: #F2F2F8;
+    margin: 10px;
+    border-radius: 4px;
+    transition: .2s all;
+}
+
+a {
+    padding: 10px;
     color: var(--cor3);
-    text-align: center;
-    font-size: 1.8em;
+    border-radius: 10px;
+    transition: .1s all;
+}
+
+a:hover {
+    color: var(--cor2);
     
 }
+
+
 
 
 

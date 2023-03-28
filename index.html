@@ -7,35 +7,42 @@
     <title>Projeto Login</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <!-- <link rel="stylesheet" href="estilos/media-query.css"> -->
 </head>
 <body>
-    <main>
-        <section id="login">
-        <div id="imagem"></div>
-        <div id="form">
+    <main class="login">
+
+        <img src="../imagens/logo.png" class="imagem" alt="">
+        <!-- AMANHA:
+        -arrumar foto
+        -escolher melhor as cores
+        -colocar 
+        -->
+
+        <div class="form">
             <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e poder fazer configurações no seu ambiente.</p>
+            <h2>Olá! Seja bem-vindo(a) de volta!</h2>
             
             <form action="" method="post" autocomplete="on">
-            <p id="user">
-                <label for="iemail"><span class="material-icons" >person</span></label>
-                <input type="email" name="email" id="iemail" placeholder="Digite seu email..." required maxlength="30">
-            </p>
 
-            <p id="password">
-                <label for="isenha"><span class="material-icons" >vpn_key</span></label>
-                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha..." required minlength="8" maxlength="20">
-            </p>
+            <div class="user">
+                    <label for="iemail" class="usuario"><span class="material-icons" >person</span></label>
+                    <input type="email" name="email" id="iemail" placeholder="Usuário" required maxlength="30" alt="Usuário">
+            </div>
 
-            <p>
-                <input type="submit" value="Entrar" id="botao">
-            </p><br>
+            <div class="password">
+                    <label for="isenha" class="senha" ><span class="material-icons" >vpn_key</span></label>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="20" alt="Senha">
+            </div>
 
+                <input type="submit" value="Entrar" class="botao"><br>
+            
+            
             <a href="#" target="_blank">Esqueci a senha</a>
             </form>
+
         </div>
-    </section>
+    
     </main>
 </body>
 </html>
