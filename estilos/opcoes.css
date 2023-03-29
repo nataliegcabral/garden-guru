@@ -10,7 +10,32 @@ a:hover {
     
 }
 
-.opcoes > p {
+.opcoes > div > p {
     padding: 50px 0px;
+    
 }
 
+.opcoes > div > span {
+    border-bottom: 1px solid #fff;
+}
+
+.entrada {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.google, .facebook {
+    background-color: var(--cor0);
+    padding: 15px;
+    border-radius: 10px;
+    transition: all .2s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    box-shadow: 1px 2px 2px var(--cor0);
+    font-weight: bold;
+}
+
+.google:hover, .facebook:hover {
+    transform: scale(1.07);
+}
