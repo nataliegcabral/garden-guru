@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background: linear-gradient(225deg, #9aa56e 20%, #69743f 70%) no-repeat fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login {
+        width: 800px;
+        margin: 0px 40px;
+        height: auto;
+        background-color: var(--cor5);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imagem {
+        justify-self: left;
+        width: 500px;
+        min-width: 40%;
+        margin: 0;
+        padding: 0;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .form {
+        justify-self: flex-end;
+        margin: auto;
+        padding: 30px 0px;
+    }
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        margin: 20px;
+    }
+
+    .user, .password {
+        margin: 0px;
+    }
+
+    .password {
+        margin: 10px 0px 30px 0px;
+    }
+
+    form {
+      margin: 30px;  
+    }
+
+    .google, .facebook {
+        margin: 30px 0px;
+        padding: 10px;
+    }
+    
+    .botao {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+}
+
+}
+
+
+/* GRANDES TELAS */
+
+@media screen and (min-width: 1025px) {
+
+    body {
+        background: linear-gradient(45deg, #9aa56e 30%, #69743f 70%) no-repeat fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login {
+        width: 800px;
+        height: auto;
+        background-color: var(--cor5);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .imagem {
+        max-width: 50%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0px 30px 30px 0px;
+        width: 600px;
+    }
+
+    .form {
+        justify-self: flex-start;
+        margin: auto;
+        padding: 20px 0px 20px 20px;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        margin: 30px 20px 0px 20px;
+    }
+
+    form {
+      margin: 30px;  
+    }
+
+    .google, .facebook {
+        margin: 30px 0px;
+    }
+
+    /*
+
+    form {
+        width: 53%;
+        float: left;
+        margin: auto;
+    }
+
+    form > p > input {
+        width: 85%;
+    }
+
+    .user, .password {
+        padding: 0;
+    }
+
+    label {
+        padding-right: 25px;
+    }
+
+    .botao {
+        width: 90%;
+        margin: 0;
+    } */
+}
+

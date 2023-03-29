@@ -17,7 +17,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: var(--fonte-padrao);
     
 }
@@ -25,6 +24,7 @@
 body {
     background-color: var(--cor5);
     color: var(--cor0);
+    height: 100vh;
 }
 
 .login {
@@ -33,7 +33,6 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     transition: width 0.4s, height 0.4s;
     text-align: center;
 }
@@ -41,11 +40,11 @@ body {
 .imagem {
     display: block;
     border-radius: 50%;
-    width: 40%;
+    width: 300px;
+    max-width: 50%;
+    max-height: 35%;
     margin: auto;
     padding: 30px 0px;
-    /* background: var(--cor0) center center no-repeat fixed;
-    background-size: auto; */
 }
 
 h1 {

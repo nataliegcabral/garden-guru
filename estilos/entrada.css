@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     font-size: 12px;
-    gap: 20px;
+    gap: 15px;
     
 }
 
@@ -19,4 +19,8 @@
 
 .google:hover, .facebook:hover {
     transform: scale(1.07);
+}
+
+.google:active, .facebook:active {
+    background-color: var(--cor1);
 }
