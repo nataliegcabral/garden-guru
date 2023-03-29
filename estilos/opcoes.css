@@ -1,0 +1,16 @@
+a {
+    padding: 10px;
+    color: var(--cor3);
+    border-radius: 10px;
+    transition: .1s all;
+}
+
+a:hover {
+    color: var(--cor2);
+    
+}
+
+.opcoes > p {
+    padding: 50px 0px;
+}
+
