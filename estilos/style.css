@@ -3,13 +3,14 @@
 
 :root {
     /* PALETA DE CORES */
-    --cor0: #4f2b52;
-    --cor1: #321135;
-    --cor2: #D0CFEC;
-    --cor3: #F2F2F8;
-    --cor4: #946690;
-    --cor6: #619c82;
-
+    --cor0: #9aa56e;
+    --cor1: #CCD6A6;
+    --cor2: #DAE2B6;
+    --cor3: #ecf4d5;
+    --cor4: #f7ffe9;
+    --cor5: #ffffff;
+    
+    
     --fonte-padrao: 'Quicksand', sans-serif;
 }
 
@@ -22,8 +23,8 @@
 }
 
 body {
-    background-color: var(--cor4);
-    color: var(--cor3);
+    background-color: var(--cor5);
+    color: var(--cor0);
 }
 
 .login {

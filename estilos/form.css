@@ -1,8 +1,8 @@
 .user, .password {
-    color: var(--cor1);
+    color: var(--cor0);
     text-align: left;
     margin: 30px 40px;    
-    background-color: var(--cor3);
+    background-color: none;
     display: grid;
     grid-template-columns: auto 1fr;
     border-radius: 4px;
@@ -11,7 +11,12 @@
 .material-icons {
     color: var(--cor0);
     font-size: 2em;
-    padding: 10px;
+    padding: 15px;
+    border-bottom: 2px solid var(--cor1);
+}
+
+form {
+    margin-bottom: 70px;
 }
 
 form > div > input, form > input {
@@ -19,7 +24,17 @@ form > div > input, form > input {
     border: none;
     outline: none;
     background: none;
+    border-bottom: 2px solid var(--cor1);
     font-size: 20px;
+    color: var(--cor0);
+}
+
+form > input {
+    border: none;
+}
+
+input::placeholder {
+    color: var(--cor1);
 }
 
 .botao {
@@ -31,4 +46,13 @@ form > div > input, form > input {
     margin: 10px;
     border-radius: 4px;
     transition: .2s all;
+}
+
+.botao:hover {
+    transform: scale(1.02);
+}
+
+.botao:focus {
+    background-color: var(--cor2);
+    color: var(--cor0);
 }

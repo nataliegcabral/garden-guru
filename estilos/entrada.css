@@ -1,0 +1,20 @@
+.entrada {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.google, .facebook {
+    background-color: var(--cor5);
+    border: 2px solid var(--cor1);
+    padding: 15px;
+    border-radius: 10px;
+    transition: all .2s;
+    cursor: pointer;
+    margin: 70px 0px 30px 0px;
+    font-weight: bold;
+}
+
+.google:hover, .facebook:hover {
+    transform: scale(1.07);
+}

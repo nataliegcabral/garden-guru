@@ -1,41 +1,27 @@
 a {
     padding: 10px;
-    color: var(--cor3);
+    color: var(--cor0);
     border-radius: 10px;
     transition: .1s all;
 }
 
 a:hover {
-    color: var(--cor2);
+    color: var(--cor0);
     
 }
 
-.opcoes > div > p {
-    padding: 50px 0px;
-    
+.opcoes > .ou > span {
+    border-bottom: 1px solid var(--cor1);
+    display: inline-block;
+    margin: 10px;
 }
 
-.opcoes > div > span {
-    border-bottom: 1px solid #fff;
+.ou {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    margin: 0px 40px;
 }
 
-.entrada {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.google, .facebook {
-    background-color: var(--cor0);
-    padding: 15px;
-    border-radius: 10px;
-    transition: all .2s;
-    cursor: pointer;
-    margin-bottom: 30px;
-    box-shadow: 1px 2px 2px var(--cor0);
-    font-weight: bold;
-}
-
-.google:hover, .facebook:hover {
-    transform: scale(1.07);
+.cadastro > p > a {
+    padding: 20px 0px;
 }
