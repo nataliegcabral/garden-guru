@@ -1,13 +1,14 @@
-.name, .nickname, .email, .password {
-    color: var(--cor1);
-    text-align: left;    
+.user > .fullname, .user > .username, .email, .password {
+    color: var(--color1);
+    text-align: left;
     background-color: none;
     display: flex;
     flex-direction: column;
     border-radius: 4px;
 }
 
-form > div > input {
+form > div > input,
+form > div > div > input {
     padding: 10px;
     border: none;
     outline: none;
@@ -56,4 +57,8 @@ label {
 .button:focus {
     background-color: var(--color2);
     color: var(--color0);
+}
+
+.join {
+    margin-bottom: 20px;
 }

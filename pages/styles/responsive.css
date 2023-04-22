@@ -2,7 +2,7 @@
 
 /* TABLET */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 880px) and (max-width: 1024px) {
     body {
         background: linear-gradient(225deg, #9aa56e 20%, #69743f 70%) no-repeat fixed;
         background-size: cover;
@@ -12,17 +12,18 @@
     }
     
     main {
-        width: 900px;
+        width: 850px;
         height: auto;
         background-color: var(--color1);
         border-radius: 30px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        align-items: center;
     }
 
     .image {
-        justify-self: left;
+        align-self: stretch;
+        justify-content: left;
         max-height: max-content;
         min-width: 50%;
         margin: 0;
@@ -31,37 +32,46 @@
     }
 
     .form {
-        justify-self: flex-end;
+        justify-self: right;
         flex-direction: column;
-        margin: auto;
-        padding: 15px 0px;
-    }
-
-    h1 {
-        font-size: 2.3em;
+        padding: 10px 0px;
     }
 
     h2 {
         font-size: 1.3em;
-        margin: 20px;
+        margin: 15px;
     }
 
-    .name, .nickname, .email, .password {
+    .user {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fullname, .username {
+        width: 200px;
+    }
+
+    .name, .email, .password {
         margin: 0px;
+        width: 400px;
+        align-self: center;
     }
 
-    .password {
-        margin: 10px 0px 30px 0px;
+    .terms {
+        font-size: 1em;
+        margin: 20px 0px;
     }
 
     .google, .facebook {
-        margin: 30px 0px;
+        width: 35%;
+        font-size: 1.2em;
         padding: 10px;
+        margin: 30px 0px;
     }
     
     .button {
         width: 90%;
-        margin: 20px 0px;
+        margin: 15px 0px;
     }
 
 }
@@ -80,7 +90,7 @@
     }
     
     main {
-        width: 1050px;
+        width: 900px;
         height: auto;
         background-color: var(--color1);
         border-radius: 30px;
@@ -106,13 +116,26 @@
         padding: 10px;
     }
 
-    form > div > input {
+    .button {
         margin: 20px;
     }
 
-    .button {
-        margin: 30px;
+    .user {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
+
+    .fullname, .username {
+        width: 225px;
+    }
+
+    .name, .email, .password {
+        margin: 0px;
+        width: 450px;
+        align-self: center;
+    }
+
 
     h2 {
         font-size: 1.2em;
@@ -120,15 +143,17 @@
     }
 
     .or {
-        margin: 20px;
+        margin: 10px 20px;
     }
 
     .google, .facebook {
-        margin: 10px 0px;
+        margin: 20px 0px;
+        padding: 10px;
+        width: 35%;
     }
 
     .terms {
-        margin: 0px 20px;
+        margin: 10px 20px;
     }
 
 }
