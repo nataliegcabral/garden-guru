@@ -22,9 +22,9 @@
         justify-content: center;
     }
 
-    .imagem {
+    .image {
         justify-self: left;
-        width: 700px;
+        width: 1000px;
         max-height: max-content;
         min-width: 50%;
         margin: 0;

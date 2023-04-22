@@ -14,7 +14,7 @@
     main {
         width: 900px;
         height: auto;
-        background-color: var(--cor1);
+        background-color: var(--color1);
         border-radius: 30px;
         display: flex;
         flex-direction: row;
@@ -82,7 +82,7 @@
     main {
         width: 1050px;
         height: auto;
-        background-color: var(--cor1);
+        background-color: var(--color1);
         border-radius: 30px;
         display: flex;
         flex-direction: row-reverse;
