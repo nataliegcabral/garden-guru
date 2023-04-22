@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/aside.css">
+    <link rel="stylesheet" href="styles/options.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <title>GardenGuru - Sign up page</title>
+</head>
+
+<body>
+    <main>
+
+        <img src="../images/img.jpg" class="image" alt="">
+
+        <div class="form">
+            <h1>GardenGuru</h1>
+            <h2>Create your account and join us!</h2>
+
+            <form action="" method="post" autocomplete="on">
+
+                <div class="name">
+                    <label for="iname" class="label">Full Name</label>
+                    <input type="text" name="name" id="iname" placeholder="Full Name" required maxlength="40">
+                </div>
+
+                <div class="nickname">
+                    <label for="inickname" class="label">Nickname</label>
+                    <input type="text" name="nickname" id="inickname" placeholder="Nickname" required
+                        maxlength="12">
+                </div>
+
+                <div class="email">
+                    <label for="iemail" class="label">E-mail</label>
+                    <input type="email" name="email" id="iemail" placeholder="E-mail" required maxlength="30">
+                </div>
+
+                <div class="password">
+                    <label for="ipassword" class="label">Password</label>
+                    <input type="password" name="password" id="ipassword" placeholder="Password" required minlength="8"
+                        maxlength="20">
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" name="terms" id="term"> I agree with the <strong>terms of use</strong> of
+                    GardenGuru.
+                </div>
+
+                <input type="submit" value="Join" class="button">
+
+                <div class="aside">
+                    <div class="or">
+                        <span></span>
+                        <p>or</p>
+                        <span></span>
+                    </div>
+
+
+                    <div class="options">
+                        <div class="google">
+                            <i class="devicon-google-plain"></i> Sign up with Google
+                        </div>
+                        <div class="facebook">
+                            <i class="devicon-facebook-plain"></i> Sign up with Facebook
+                        </div>
+                    </div>
+
+                    <div class="join">
+                        <p>Already on GardenGuru? <a href="../index.html">Sign in</a></p>
+                    </div>
+
+                </div>
+            </form>
+
+
+
+        </div>
+
+
+
+
+
+    </main>
+</body>
+
+</html>

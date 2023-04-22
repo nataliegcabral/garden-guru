@@ -1,67 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Login</title>
+    <title>GardenGuru</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/form.css">
-    <link rel="stylesheet" href="styles/opcoes.css">
-    <link rel="stylesheet" href="styles/entrada.css">
-    <link rel="stylesheet" href="styles/responsivo.css">
+    <link rel="stylesheet" href="styles/aside.css">
+    <link rel="stylesheet" href="styles/options.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
     <main class="login">
 
-        <img src="../images/img.jpg" class="imagem" alt="">
+        <img src="../images/img.jpg" class="image" alt="">
 
 
         <div class="form">
-            <h1>Login</h1>
-            <h2>Olá! Seja bem-vindo(a) de volta!</h2>
+            <h1>GardenGuru</h1>
+            <h2>Hello, welcome back!</h2>
             
             <form action="" method="post" autocomplete="on">
 
             <div class="user">
-                    <label for="iemail" class="usuario"><span class="material-icons" >person</span></label>
-                    <input type="email" name="email" id="iemail" placeholder="Usuário" required maxlength="30" alt="Usuário">
+                    <label for="iemail" class="label-user"><span class="material-icons" >person</span></label>
+                    <input type="email" name="email" id="iemail" placeholder="User" required maxlength="30" alt="User">
             </div>
 
             <div class="password">
-                    <label for="isenha" class="senha" ><span class="material-icons" >vpn_key</span></label>
-                    <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="20" alt="Senha">
+                    <label for="ipassword" class="label-password" ><span class="material-icons" >vpn_key</span></label>
+                    <input type="password" name="password" id="ipassword" placeholder="Password" required minlength="8" maxlength="20" alt="Password">
             </div>
 
-                <input type="submit" value="Entrar" class="botao"><br>
+                <input type="submit" value="Entrar" class="button"><br>
             
             
-            <a href="">Esqueci a senha</a>
+            <a href="">Forgot password?</a>
             </form>
 
-            <div class="opcoes">
-                <div class="ou">
+            <div class="aside">
+                <div class="or">
                     <span></span>
-                    <p>ou</p>
+                    <p>or</p>
                     <span></span>
                 </div>
                 
 
-                <div class="entrada">
+                <div class="options">
                     <div class="google">
-                        <i class="devicon-google-plain"></i> Entrar com Google
+                        <i class="devicon-google-plain"></i> Sign in with Google
                     </div>
                     <div class="facebook">
-                        <i class="devicon-facebook-plain"></i> Entrar com Facebook
+                        <i class="devicon-facebook-plain"></i> Sign in with Facebook
                     </div>
                 </div>
 
-                <div class="cadastro">
-                    <p>Ainda não tem uma conta? <a href="./pages/cadastro.html">Cadastre-se</a></p>
+                <div class="join">
+                    <p>New to GardenGuru? <a href="./pages/index.html">Join</a></p>
                 </div>
             </div>
+
+            
         </div>
     
     </main>

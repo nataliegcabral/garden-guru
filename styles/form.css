@@ -12,7 +12,7 @@
     color: var(--cor0);
     font-size: 2em;
     padding: 15px;
-    border-bottom: 2px solid var(--cor1);
+    border-bottom: 2px solid var(--color1);
 }
 
 form {
@@ -24,9 +24,9 @@ form > div > input, form > input {
     border: none;
     outline: none;
     background: none;
-    border-bottom: 2px solid var(--cor1);
+    border-bottom: 2px solid var(--color1);
     font-size: 20px;
-    color: var(--cor0);
+    color: var(--color0);
 }
 
 form > input {
@@ -34,25 +34,25 @@ form > input {
 }
 
 input::placeholder {
-    color: var(--cor1);
+    color: var(--color1);
 }
 
-.botao {
+.button {
     padding: 10px;
     width: 85%;
     cursor: pointer;
-    background-color: var(--cor0);
+    background-color: var(--color0);
     color: #F2F2F8;
     margin: 10px;
     border-radius: 4px;
     transition: .2s all;
 }
 
-.botao:hover {
-    box-shadow: 1px 1px 5px var(--cor0);
+.button:hover {
+    box-shadow: 1px 1px 5px var(--color0);
 }
 
-.botao:focus {
-    background-color: var(--cor2);
-    color: var(--cor0);
+.button:focus {
+    background-color: var(--color2);
+    color: var(--color0);
 }

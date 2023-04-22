@@ -1,31 +1,31 @@
 a {
     padding: 10px;
-    color: var(--cor0);
+    color: var(--color0);
     border-radius: 10px;
     transition: .1s all;
 }
 
 a:hover {
-    color: var(--cor2);
+    color: var(--color2);
     
 }
 
-.opcoes > .ou > span {
-    border-bottom: 1px solid var(--cor1);
+.aside > .or > span {
+    border-bottom: 1px solid var(--color1);
     display: inline-block;
     margin: 10px;
 }
 
-.ou {
+.or {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     margin: 0px 40px;
 }
 
-.cadastro  {
+.join  {
     margin: 20px;
 }
 
-.cadastro > p > a {
+.join > p > a {
     padding: 20px 0px;
 }
