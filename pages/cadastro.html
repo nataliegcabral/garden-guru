@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/opcoes.css">
+    <link rel="stylesheet" href="styles/entrada.css">
+    <link rel="stylesheet" href="styles/responsivo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <main>
+
+        <img src="../images/img.jpg" class="image" alt="">
+
+        <div class="form">
+            <h1>Cadastro</h1>
+            <h2>Crie sua conta e junte-se a nós!</h2>
+
+            <form action="" method="post" autocomplete="on">
+
+                <div class="name">
+                    <label for="iname" class="label">Nome Completo</label>
+                    <input type="text" name="name" id="iname" placeholder="Nome Completo" required maxlength="40"
+                        alt="Usuário">
+                </div>
+
+                <div class="nickname">
+                    <label for="inickname" class="label">Nome de usuário</label>
+                    <input type="text" name="nickname" id="inickname" placeholder="Nome de usuário" required
+                        maxlength="12" alt="Usuário">
+                </div>
+
+                <div class="email">
+                    <label for="iemail" class="label">E-mail</label>
+                    <input type="email" name="email" id="iemail" placeholder="E-mail" required maxlength="30"
+                        alt="Usuário">
+                </div>
+
+                <div class="password">
+                    <label for="isenha" class="label">Senha</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8"
+                        maxlength="20" alt="Senha">
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" name="terms" id="term"> Concordo com os <strong>termos de uso</strong> da
+                    HarvestGo!
+                </div>
+
+                <input type="submit" value="Cadastrar" class="botao">
+
+                <div class="opcoes">
+                    <div class="ou">
+                        <span></span>
+                        <p>ou</p>
+                        <span></span>
+                    </div>
+
+
+                    <div class="entrada">
+                        <div class="google">
+                            <i class="devicon-google-plain"></i> Criar com Google
+                        </div>
+                        <div class="facebook">
+                            <i class="devicon-facebook-plain"></i> Criar com Facebook
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+    </main>
+</body>
+
+</html>

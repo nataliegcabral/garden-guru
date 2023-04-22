@@ -1,0 +1,27 @@
+a {
+    padding: 10px;
+    color: var(--cor0);
+    border-radius: 10px;
+    transition: .1s all;
+}
+
+a:hover {
+    color: var(--cor2);
+    
+}
+
+.opcoes > .ou > span {
+    border-bottom: 1px solid var(--cor3);
+    display: inline-block;
+    margin: 10px;
+}
+
+.ou {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    margin: 0px 40px;
+}
+
+.cadastro > p > a {
+    padding: 20px 0px;
+}

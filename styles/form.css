@@ -49,7 +49,7 @@ input::placeholder {
 }
 
 .botao:hover {
-    transform: scale(1.03);
+    box-shadow: 1px 1px 5px var(--cor0);
 }
 
 .botao:focus {

@@ -22,6 +22,10 @@ a:hover {
     margin: 0px 40px;
 }
 
+.cadastro  {
+    margin: 20px;
+}
+
 .cadastro > p > a {
     padding: 20px 0px;
 }

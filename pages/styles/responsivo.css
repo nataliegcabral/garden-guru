@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background: linear-gradient(225deg, #9aa56e 20%, #69743f 70%) no-repeat fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main {
+        width: 900px;
+        height: auto;
+        background-color: var(--cor1);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image {
+        justify-self: left;
+        max-height: max-content;
+        min-width: 50%;
+        margin: 0;
+        padding: 0;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .form {
+        justify-self: flex-end;
+        flex-direction: column;
+        margin: auto;
+        padding: 15px 0px;
+    }
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        margin: 20px;
+    }
+
+    .name, .nickname, .email, .password {
+        margin: 0px;
+    }
+
+    .password {
+        margin: 10px 0px 30px 0px;
+    }
+
+    .google, .facebook {
+        margin: 30px 0px;
+        padding: 10px;
+    }
+    
+    .botao {
+        width: 90%;
+        margin: 20px 0px;
+    }
+
+}
+
+
+/* GRANDES TELAS */
+
+@media screen and (min-width: 1025px) {
+
+    body {
+        background: linear-gradient(45deg, #9aa56e 30%, #69743f 70%) no-repeat fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main {
+        width: 1050px;
+        height: auto;
+        background-color: var(--cor1);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .image {
+        justify-self: right;
+        max-width: 50%;
+        max-height: max-content;
+        margin: 0;
+        padding: 0;
+        border-radius: 0px 30px 30px 0px;
+        width: 700px;
+    }
+
+    .form {
+        justify-self: flex-start;
+        margin: auto;
+        padding: 10px;
+    }
+
+    form > div > input {
+        margin: 20px;
+    }
+
+    .botao {
+        margin: 30px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .ou {
+        margin: 20px;
+    }
+
+    .google, .facebook {
+        margin: 10px 0px;
+    }
+
+    .terms {
+        margin: 0px 20px;
+    }
+
+}
+
